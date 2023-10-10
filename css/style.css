@@ -1,0 +1,67 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Gabarito', cursive;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fff;
+    color: #4D4D4D;
+}
+
+.btn {
+    color: #fff;
+    background-color: #4caf4f;
+    border-radius: 0.3rem;
+    border: none;
+    padding: 1rem 2rem;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+/* Navigation Section */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+/* Left Navigation Side */
+.left-nav img {
+    width: 10rem;
+}
+
+/* Right Navigtion Side */
+.right-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.right-nav ul {
+    display: flex;
+}
+
+.right-nav ul li {
+    list-style: none;
+    margin-right: 3rem;
+}
+
+.right-nav ul li a {
+    text-decoration: none;
+    color: #4D4D4D;
+    transition: 0.3s;
+}
+
+.right-nav ul li a:hover {
+    color: #28CB8B;
+}
