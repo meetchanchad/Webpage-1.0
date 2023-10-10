@@ -12,6 +12,10 @@ body {
     color: #4D4D4D;
 }
 
+p {
+    color: #717171;
+}
+
 .btn {
     color: #fff;
     background-color: #4caf4f;
@@ -68,7 +72,6 @@ nav {
 
 
 /* Main Content Section */
-
 .main-pamphlet {
     display: flex;
     justify-content: space-around;
@@ -97,4 +100,33 @@ nav {
     width: 100%;
     max-width: 30rem;
     padding: 2rem 0;
+}
+
+
+/* Clients  */
+.clients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.clients-discription h1 {
+    margin: 1rem 0;
+}
+
+.clients-discription p {
+    margin-bottom: 1rem;
+}
+
+.clients-logo {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.clients-logo img {
+    width: 3rem;
 }
