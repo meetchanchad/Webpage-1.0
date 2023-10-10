@@ -65,3 +65,36 @@ nav {
 .right-nav ul li a:hover {
     color: #28CB8B;
 }
+
+
+/* Main Content Section */
+
+.main-pamphlet {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #F5F7FA;
+    padding: 2rem 2rem;
+}
+
+.main-pamphlet-left {
+    font-size: xx-large;
+    text-align: start;
+}
+
+.main-pamphlet-left span {
+    color: #4CAF4F;
+}
+
+.main-pamphlet-left p {
+    margin: 1rem 0;
+    font-size: small;
+    color: #717171;
+}
+
+.main-pamphlet-right img {
+    width: 100%;
+    max-width: 30rem;
+    padding: 2rem 0;
+}
