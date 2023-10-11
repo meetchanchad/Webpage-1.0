@@ -110,7 +110,7 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 1rem;
+    margin: 2rem 0;
 }
 
 .clients-discription h1 {
@@ -138,9 +138,47 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 1rem 0;
+    margin: 2rem 0;
 }
 
 .community h1{
     margin-bottom: 0.5rem;
+}
+
+
+/* Memberships */
+.memberships{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem 0;
+    gap: 7rem;
+}
+
+.memberships-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 15rem;
+    width: 15rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0px 1.39214px 2.78428px 0px rgba(171, 190, 209, 0.5);
+    gap: 1rem;
+    transition: 0.3s;
+}
+
+.memberships-card:hover{
+    box-shadow: 0px 1.39214px 2.78428px 0px rgba(171, 190, 209, 1);
+    padding: 2rem;
+
+}
+
+.memberships-card img {
+    width: 3rem;
+}
+
+.memberships-card h2{
+    margin-bottom: 1rem;
 }
