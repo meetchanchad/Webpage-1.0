@@ -114,7 +114,7 @@ nav {
 }
 
 .clients-discription h1 {
-    margin: 1rem 0;
+    margin: 0.5rem 0;
 }
 
 .clients-discription p {
@@ -129,4 +129,18 @@ nav {
 
 .clients-logo img {
     width: 3rem;
+}
+
+/* Community */
+.community{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.community h1{
+    margin-bottom: 0.5rem;
 }
