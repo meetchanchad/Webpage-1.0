@@ -78,7 +78,8 @@ nav {
     align-items: center;
     text-align: center;
     background-color: #F5F7FA;
-    padding: 2rem 2rem;
+    padding: 2rem;
+    margin-bottom: 1rem;
 }
 
 .main-pamphlet-left {
@@ -110,7 +111,7 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 2rem 0;
+    margin: 3rem 0;
 }
 
 .clients-discription h1 {
@@ -132,31 +133,31 @@ nav {
 }
 
 /* Community */
-.community{
+.community {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 2rem 0;
+    margin: 3rem 0;
 }
 
-.community h1{
+.community h1 {
     margin-bottom: 0.5rem;
 }
 
 
 /* Memberships */
-.memberships{
+.memberships {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 2rem 0;
+    margin-top: 3rem;
     gap: 7rem;
 }
 
-.memberships-card{
+.memberships-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -169,7 +170,7 @@ nav {
     transition: 0.3s;
 }
 
-.memberships-card:hover{
+.memberships-card:hover {
     box-shadow: 0px 1.39214px 2.78428px 0px rgba(171, 190, 209, 1);
     padding: 2rem;
 
@@ -179,6 +180,34 @@ nav {
     width: 3rem;
 }
 
-.memberships-card h2{
+.memberships-card h2 {
     margin-bottom: 1rem;
+}
+
+
+/* Unlock */
+.unlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.unlock-img {
+    width: 40%;
+    max-width: 40rem;
+}
+
+.unlock-img img {
+    width: 100%;
+}
+
+.unlock-text {
+    width: 60%;
+    max-width: 50rem;
+}
+
+.unlock-text h1,
+p {
+    margin-bottom: 2rem;
 }
