@@ -264,3 +264,29 @@ p {
     color: #4CAF4F;
     font-size: larger;
 }
+
+
+
+
+/* Footer Section  */
+footer {
+    background-color: #263238;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-left {}
+
+.footer-right {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-right div {
+    padding: 1rem;
+    margin: 0 1rem;
+}
+
+.footer-right div li {
+    list-style: none;
+}
