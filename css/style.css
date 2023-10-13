@@ -195,7 +195,7 @@ nav {
 
 .unlock-img {
     width: 40%;
-    max-width: 40rem;
+    max-width: 30rem;
 }
 
 .unlock-img img {
@@ -210,4 +210,57 @@ nav {
 .unlock-text h1,
 p {
     margin-bottom: 2rem;
+}
+
+
+/* Customers */
+
+.customers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 2rem 0;
+}
+
+.customers-img {
+    width: 30%;
+    max-width: 20rem;
+}
+
+.customers-img img {
+    width: 100%;
+}
+
+.customers-text {
+    width: 70%;
+    max-width: 50rem;
+}
+
+.customers-text div {
+    margin-bottom: 2rem;
+}
+
+.customers-text h1 {
+    color: #4CAF4F;
+}
+
+.customers-text ul li {
+    list-style: none;
+}
+
+.customers-text ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.customers-text img {
+    width: 2rem;
+}
+
+.customers-text a {
+    text-decoration: none;
+    color: #4CAF4F;
+    font-size: larger;
 }
