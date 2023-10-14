@@ -12,6 +12,10 @@ body {
     color: #4D4D4D;
 }
 
+#main {
+    overflow: hidden;
+}
+
 p {
     color: #717171;
 }
@@ -273,20 +277,53 @@ footer {
     background-color: #263238;
     display: flex;
     justify-content: center;
+    color: #fff;
 }
 
-.footer-left {}
+footer p {
+    color: #fff;
+}
+
+footer li {
+    font-size: 0.9rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-left {
+    margin: 2rem 4rem 2rem 0;
+}
 
 .footer-right {
     display: flex;
     justify-content: center;
+    margin: 2rem 0 2rem 4rem;
 }
 
 .footer-right div {
     padding: 1rem;
-    margin: 0 1rem;
+    margin: 0 2rem;
+}
+
+.footer-right h3 {
+    margin-bottom: 1rem;
 }
 
 .footer-right div li {
     list-style: none;
+    padding: 0.5rem;
+}
+
+.footer-right input {
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    background-color: #89939E;
+}
+
+.footer-right input:focus {
+    border: none;
 }
