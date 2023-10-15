@@ -297,6 +297,15 @@ footer a {
     margin: 2rem 4rem 2rem 0;
 }
 
+.footer-left div {
+    margin-bottom: 1rem;
+}
+
+.footer-left div a img {
+    width: 2rem;
+    margin: 0 0.5rem;
+}
+
 .footer-right {
     display: flex;
     justify-content: center;
