@@ -269,8 +269,18 @@ p {
     font-size: larger;
 }
 
+/* Community Update */
+.community-update {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
-
+.community-update-text {
+    width: 50%;
+}
 
 /* Footer Section  */
 footer {
@@ -304,6 +314,11 @@ footer a {
 .footer-left div a img {
     width: 2rem;
     margin: 0 0.5rem;
+    transition: 0.5s;
+}
+
+.footer-left div a img:hover {
+    transform: translateY(-5px);
 }
 
 .footer-right {
