@@ -331,6 +331,25 @@ p {
 }
 
 
+/* Last Frame */
+.last-frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F7FA;
+}
+
+.last-frame div {
+    margin: 1rem;
+    text-align: center;
+}
+
+.last-frame h1 {
+    font-size: 4rem;
+    color: #263238;
+}
+
 /* Footer Section  */
 footer {
     background-color: #263238;
