@@ -216,6 +216,47 @@ p {
     margin-bottom: 2rem;
 }
 
+/* Achievement */
+
+.achievements {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    align-items: center;
+    gap: 5rem;
+    background-color: #F5F7FA;
+}
+
+.achievements-left h1 {
+    margin-bottom: 1rem;
+}
+
+.achievements-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    /* Adjust the gap as needed */
+    width: 400px;
+    /* Adjust the container width as needed */
+}
+
+.members {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    gap: 5px;
+    margin: 1rem;
+}
+
+.members div {
+    margin-left: 1rem;
+}
+
+.members div img {
+    width: 3rem;
+}
 
 /* Customers */
 
