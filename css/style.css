@@ -258,6 +258,33 @@ p {
     width: 3rem;
 }
 
+/* Lock */
+.lock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+.lock-left {
+    width: 40%;
+    max-width: 30rem;
+}
+
+.lock-left img {
+    width: 100%;
+}
+
+.lock-right {
+    width: 60%;
+    max-width: 50rem;
+}
+
+.lock-right h1 {
+    margin-bottom: 1rem;
+}
+
 /* Customers */
 
 .customers {
@@ -266,6 +293,8 @@ p {
     align-items: center;
     gap: 5rem;
     margin: 2rem 0;
+    padding: 1rem;
+    background-color: #F5F7FA;
 }
 
 .customers-img {
