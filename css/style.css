@@ -308,6 +308,15 @@ p {
     text-decoration: none;
     color: #4CAF4F;
     font-size: larger;
+    transition: 0.5s;
+}
+
+i {
+    transition: 0.5s;
+}
+
+.customers-text a:hover i {
+    transform: translateX(1rem);
 }
 
 /* Community Update */
@@ -369,6 +378,10 @@ p {
 
 .update-text h4 {
     margin-bottom: 1rem;
+}
+
+.update-text a:hover i {
+    transform: translateX(0.5rem);
 }
 
 
