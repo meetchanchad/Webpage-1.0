@@ -380,7 +380,8 @@ i {
     margin-bottom: 1rem;
 }
 
-.update-text a:hover i {
+.update-text a:hover,
+.btn:hover i {
     transform: translateX(0.5rem);
 }
 
