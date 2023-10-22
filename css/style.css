@@ -503,3 +503,19 @@ footer a {
 .footer-right input:focus {
     border: none;
 }
+
+
+
+/* Media Query */
+
+@media only screen and (max-width: 1133px) and (min-width: 768px)  {
+    
+    body{
+        background-color: #800000;
+    }
+
+   .btn{
+    padding: 1rem;
+   }
+
+}
