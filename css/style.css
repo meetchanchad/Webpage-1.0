@@ -26,7 +26,7 @@ p {
     border-radius: 0.3rem;
     border: none;
     padding: 1rem 2rem;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .btn:hover {
@@ -67,7 +67,7 @@ nav {
 .right-nav ul li a {
     text-decoration: none;
     color: #4D4D4D;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .right-nav ul li a:hover {
@@ -158,7 +158,7 @@ nav {
     align-items: center;
     text-align: center;
     margin-top: 3rem;
-    gap: 7rem;
+    gap: 10%;
 }
 
 .memberships-card {
@@ -171,7 +171,7 @@ nav {
     border-radius: 5px;
     box-shadow: 0px 1.39214px 2.78428px 0px rgba(171, 190, 209, 0.5);
     gap: 1rem;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .memberships-card:hover {
@@ -236,9 +236,6 @@ p {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 10px;
-    /* Adjust the gap as needed */
-    width: 400px;
-    /* Adjust the container width as needed */
 }
 
 .members {
@@ -337,11 +334,11 @@ p {
     text-decoration: none;
     color: #4CAF4F;
     font-size: larger;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 i {
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .customers-text a:hover i {
@@ -436,9 +433,9 @@ i {
 
 /* Footer Section  */
 footer {
-    background-color: #263238;
     display: flex;
     justify-content: center;
+    background-color: #263238;
     color: #fff;
 }
 
@@ -466,7 +463,7 @@ footer a {
 .footer-left div a img {
     width: 2rem;
     margin: 0 0.5rem;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .footer-left div a img:hover {
@@ -508,14 +505,30 @@ footer a {
 
 /* Media Query */
 
-@media only screen and (max-width: 1133px) and (min-width: 768px)  {
-    
-    body{
-        background-color: #800000;
+@media (max-width: 1133px) {
+
+    .btn {
+        padding: 1rem;
     }
 
-   .btn{
-    padding: 1rem;
-   }
+    .memberships {
+        gap: 5%;
+    }
+
+    .achievements {
+        gap: 3rem;
+    }
+
+    .achievements-right {
+        gap: 5px;
+    }
+
+    .footer-left {
+        margin: 2rem 2rem 2rem 0;
+    }
+
+    .footer-right {
+        margin: 2rem 0 2rem 2rem;
+    }
 
 }
