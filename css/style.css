@@ -43,9 +43,18 @@ nav {
 }
 
 /* Left Navigation Side */
-.left-nav img {
+.logo {
     width: 10rem;
 }
+
+.logo img {
+    width: 100%;
+}
+
+.logo-icon {
+    display: none;
+}
+
 
 /* Right Navigtion Side */
 .right-nav {
@@ -143,7 +152,7 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 3rem 0;
+    padding: 1rem;
 }
 
 .community h1 {
@@ -157,7 +166,7 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 3rem;
+    padding: 2rem;
     gap: 10%;
 }
 
@@ -195,6 +204,7 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    margin: 1rem;
 }
 
 .unlock-img {
@@ -208,7 +218,7 @@ nav {
 
 .unlock-text {
     width: 60%;
-    max-width: 50rem;
+    max-width: 60rem;
 }
 
 .unlock-text h1,
@@ -221,7 +231,7 @@ p {
 .achievements {
     display: flex;
     justify-content: center;
-    padding: 1rem 0;
+    padding: 1rem;
     align-items: center;
     gap: 5rem;
     background-color: #F5F7FA;
@@ -499,36 +509,4 @@ footer a {
 
 .footer-right input:focus {
     border: none;
-}
-
-
-
-/* Media Query */
-
-@media (max-width: 1133px) {
-
-    .btn {
-        padding: 1rem;
-    }
-
-    .memberships {
-        gap: 5%;
-    }
-
-    .achievements {
-        gap: 3rem;
-    }
-
-    .achievements-right {
-        gap: 5px;
-    }
-
-    .footer-left {
-        margin: 2rem 2rem 2rem 0;
-    }
-
-    .footer-right {
-        margin: 2rem 0 2rem 2rem;
-    }
-
 }

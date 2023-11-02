@@ -1,0 +1,77 @@
+/* Media Query */
+
+@media (max-width: 1133px) {
+
+    .btn {
+        padding: 1rem;
+    }
+
+    .memberships {
+        gap: 5%;
+    }
+
+    .achievements {
+        gap: 3rem;
+    }
+
+    .achievements-right {
+        gap: 5px;
+    }
+
+    .footer-left {
+        margin: 2rem 2rem 2rem 0;
+    }
+
+    .footer-right {
+        margin: 2rem 0 2rem 2rem;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .logo {
+        display: none;
+    }
+
+    .logo-icon {
+        display: block;
+        width: 3rem;
+    }
+
+    .logo-icon img {
+        width: 100%;
+    }
+
+    .right-nav ul li {
+        margin-right: 2rem;
+    }
+
+    .clients-logo {
+        gap: 3rem;
+    }
+
+    .memberships {
+        flex-wrap: wrap;
+    }
+
+    .memberships-card {
+        margin: 1.5rem;
+    }
+
+    .achievements {
+        gap: 1rem;
+    }
+
+    .community-update-text {
+        width: 70%;
+    }
+
+    .community-update-card {
+        flex-wrap: wrap;
+    }
+
+    .footer-right div {
+        margin: 0;
+    }
+
+}
