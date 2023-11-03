@@ -42,6 +42,7 @@ nav {
     padding: 1rem 2rem;
 }
 
+
 /* Left Navigation Side */
 .logo {
     width: 10rem;
@@ -81,6 +82,15 @@ nav {
 
 .right-nav ul li a:hover {
     color: #28CB8B;
+}
+
+.nav-icon {
+    display: none;
+    /* color: white; */
+    /* font-size: 24px; */
+    cursor: pointer;
+    /* float: right; */
+    /* padding: 14px 16px; */
 }
 
 

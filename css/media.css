@@ -75,3 +75,26 @@
     }
 
 }
+
+
+@media screen and (max-width: 768px) {
+    .right-nav ul {
+        display: none;
+    }
+
+    .nav-icon {
+        display: block;
+    }
+
+    .btn-regi {
+        display: none;
+    }
+
+    .logo {
+        display: block;
+    }
+
+    .logo-icon {
+        display: none;
+    }
+}
