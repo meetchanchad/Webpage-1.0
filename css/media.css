@@ -18,12 +18,8 @@
         gap: 5px;
     }
 
-    .footer-left {
-        margin: 2rem 2rem 2rem 0;
-    }
-
-    .footer-right {
-        margin: 2rem 0 2rem 2rem;
+    footer{
+        gap: 10%;
     }
 
 }
@@ -69,9 +65,9 @@
     .community-update-card {
         flex-wrap: wrap;
     }
-
-    .footer-right div {
-        margin: 0;
+    
+    footer{
+        gap: 5rem;
     }
 
 }
@@ -148,11 +144,6 @@
         margin-bottom: 1rem;
     }
 
-    footer {
-        flex-wrap: wrap;
-        padding: 0 1rem;
-    }
-
 }
 
 @media (max-width: 640px) {
@@ -185,8 +176,4 @@
         font-size: 2.5rem;
     }
 
-    .footer-right {
-        flex-wrap: wrap;
-        gap: 5rem;
-    }
 }
