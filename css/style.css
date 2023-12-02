@@ -34,7 +34,7 @@ p {
     opacity: 0.9;
 }
 
-li{
+li {
     list-style: none;
 }
 
@@ -218,7 +218,7 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    margin: 1rem;
+    padding: 1rem;
 }
 
 .unlock-img {
@@ -235,7 +235,8 @@ nav {
     max-width: 60rem;
 }
 
-.unlock-text h1,.unlock-text p {
+.unlock-text h1,
+.unlock-text p {
     margin-bottom: 2rem;
 }
 
@@ -455,7 +456,7 @@ i {
 }
 
 /* Footer Section  */
-footer{
+footer {
     background-color: #263238;
     color: #fff;
     display: flex;
@@ -466,12 +467,12 @@ footer{
     flex-wrap: wrap;
 }
 
-footer h1{
+footer h1 {
     font-weight: 500;
     font-size: 1.5rem;
 }
 
-.footer-left div{
+.footer-left div {
     padding: 1rem 0;
 }
 
@@ -480,33 +481,33 @@ footer h1{
     color: #F5F7FA;
 }
 
-.footer-left ul{
+.footer-left ul {
     display: flex;
     gap: 1rem;
 }
 
-.footer-left ul li{
+.footer-left ul li {
     width: 2rem;
 }
 
-.footer-left ul li img{
+.footer-left ul li img {
     width: 100%;
 }
 
-.footer-right{
+.footer-right {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 5rem;
 }
 
-.footer-right a{
+.footer-right a {
     text-decoration: none;
     color: #F5F7FA;
     font-weight: lighter;
 }
 
-.footer-right div{
+.footer-right div {
     margin-bottom: 1rem;
 }
 
@@ -516,7 +517,7 @@ footer h1{
     gap: 1rem;
 }
 
-.footer-right input{
+.footer-right input {
     border: none;
     border-radius: 10px;
     padding: 0.5rem 1rem;
