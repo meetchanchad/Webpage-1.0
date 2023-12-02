@@ -90,11 +90,7 @@ nav {
 
 .nav-icon {
     display: none;
-    /* color: white; */
-    /* font-size: 24px; */
     cursor: pointer;
-    /* float: right; */
-    /* padding: 14px 16px; */
 }
 
 
@@ -105,8 +101,7 @@ nav {
     align-items: center;
     text-align: center;
     background-color: #F5F7FA;
-    padding: 2rem;
-    margin-bottom: 1rem;
+    padding: 4rem 2rem;
 }
 
 .main-pamphlet-left {
@@ -138,7 +133,7 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 3rem 0;
+    padding: 5rem 0.5rem;
 }
 
 .clients-discription h1 {
@@ -166,7 +161,8 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 1rem;
+    padding: 2rem 1rem;
+    gap: 1rem;
 }
 
 .community h1 {

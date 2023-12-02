@@ -73,7 +73,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
 
     .right-nav ul {
         display: none;
@@ -154,20 +154,19 @@
     .unlock,
     .achievements,
     .lock,
-    .customers {
+    .customers.achievements,
+    .community {
         padding-right: 0.5rem;
         padding-left: 0.5rem;
+    }
+
+    .main-pamphlet div {
+        width: 100%;
     }
 
     .main-pamphlet-left h1 {
         font-size: 2.9rem;
     }
-
-
-    .community {
-        padding: 0.5rem;
-    }
-
 
     .clients-logo {
         flex-wrap: wrap;
